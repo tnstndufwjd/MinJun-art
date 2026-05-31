@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MinJun 작가 — 작품집</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="MinJun 작가의 작품 및 사진 아카이브">
+</head>
+<body>
+  <header>
+    <h1>Min Jun Jeong</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">작품</a>
+      <a href="#photos">사진</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <div id="bio">
+        <p>Min Jun Jeong (b. 2005, South Korea) is an emerging artist working in mixed media on canvas. His practice explores how invisible emotions and memories can be translated into layered visual structures. Through accumulations of color, texture, gesture, and light, he creates immersive surfaces where anxiety, stillness, and emotional resonance coexist.</p>
+
+        <p>Rather than depicting feeling directly, he reveals it through strata of material and rhythm, allowing memory to appear as something fragmented, refracted, and slowly reassembled.</p>
+
+        <p>His series <em>Fragments of Memories, Layers of Emotion</em> was exhibited at Modern Space Gallery, Korea (2025–2026). In 2025, he received an institutional award at the Busan International Kids & Youth Film Festival (BIKY). In 2026, he participated in the Seoul Art Fair as an emerging artist.</p>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>작품</h2>
+      <p>갤러리는 수동으로 관리됩니다. 새 작품을 추가하려면 `site/images/` 폴더에 이미지 파일을 넣은 뒤 아래의 예시를 복사해 `<div id="artworks">` 내부에 붙여넣으세요.</p>
+      <pre>&lt;figure&gt;
+  &lt;img src="images/your-file.jpg" alt="작품 제목"&gt;
+  &lt;figcaption&gt;작품 제목 — 연도 (선택)&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+
+      <div class="grid" id="artworks">
+        <!-- 예시: 아래 항목을 복사하여 수동으로 추가하세요 -->
+        <figure>
+          <img src="images/placeholder.jpg" alt="placeholder">
+          <figcaption>작품 제목 — 연도</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="photos">
+      <h2>사진</h2>
+      <p>사진 갤러리도 수동으로 관리됩니다. `site/images/`에 사진을 업로드한 뒤 아래 예시처럼 `<div id="photosGrid">`에 항목을 추가하세요.</p>
+      <pre>&lt;figure&gt;
+  &lt;img src="images/your-photo.jpg" alt="간단 설명"&gt;
+  &lt;figcaption&gt;사진 설명 (선택)&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+      <div class="grid" id="photosGrid">
+        <figure>
+          <img src="images/placeholder.jpg" alt="photo placeholder">
+          <figcaption>사진 설명</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <span id="email">your-email@example.com</span></p>
+      <p>Instagram: <a href="https://instagram.com/Min_orbis" target="_blank" rel="noopener noreferrer">@Min_orbis</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© MinJun</p>
+  </footer>
+</body>
+</html>

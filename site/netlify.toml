@@ -1,0 +1,6 @@
+[build]
+  publish = "site"
+  command = ""
+
+[context.production.environment]
+  # 예: 환경변수가 필요한 경우 여기에 추가합니다.
